@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bform">
+    <div class="lformulario">
+        <form action="">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Login</h1>
+                </div>
+            </div>
+            <div class="linputs">
+                <div class="linput-box">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="linput-box">
+                    <label for="password">Senha</label>
+                    <input id="password" type="text" name="password" placeholder="Digite sua senha" required>
+                </div>
+            </div>
+            
+            <div class="continue-button">
+                <button><a href="index.html"></a>Continuar</button>
+            </div>
+            <div class="cadastro-button">
+                <button><a href="cadastro.html"></a>Ciar conta</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
