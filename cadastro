@@ -14,7 +14,7 @@
                     <h1>Cadastre-se</h1>
                 </div>
                 <div class="login-button">
-                        <button><a href="">Entrar</a></button>
+                        <button><a href="login.html">Entrar</a></button>
                 </div>
             </div>
             <div class="inputs">
@@ -67,7 +67,12 @@
                 </div>
             </div>
             <div class="continue-button">
-                <button><a href="#"></a>Continuar</button>
+                <button><a href="index.html"></a>Continuar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
             </div>
         </form>
     </div>
