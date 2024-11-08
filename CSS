@@ -246,3 +246,67 @@ input[type="radio"] {
     background-color: #4CAF50;
     border-color: #4CAF50;     
   }
+
+  /* Login */
+
+  .linput-box {
+    display: flex;
+  }
+
+  .linput-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.linput-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.linput-box input:focus-visible {
+    outline: 1px solid #17A354;
+}
+
+.linput-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.linput-box input::placeholder {
+    color: #000000be;
+}
+
+.lformulario {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 3rem;
+}
+
+.cadastro-button button {
+    width: 100%;
+    margin-top: 0.8rem;
+    border: none;
+    background-color: #fff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--color-green);
+}
+
+.cadastro-button button:hover {
+    background-color: #91f3bb;
+}
+
+.cadastro-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: var(--color-light);
+}
