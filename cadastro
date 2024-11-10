@@ -5,42 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Cadastro</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/2bff4383e4.js" crossorigin="anonymous"></script>
 </head>
 <body class="bform">
     <div class="formulario">
-        <form action="">
+        <form id="form" class="form" action="">
             <div class="form-header">
                 <div class="title">
                     <h1>Cadastre-se</h1>
                 </div>
                 <div class="login-button">
-                        <button><a href="login.html">Entrar</a></button>
+                        <button type="submit"><a href="login.html">Entrar</a></button>
                 </div>
             </div>
             <div class="inputs">
                 <div class="input-box">
                     <label for="firstname">Nome</label>
-                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
                 </div>
                 <div class="input-box">
                     <label for="lastname">Sobrenome</label>
-                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu último nome" required>
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu último nome">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
                 </div>
                 <div class="input-box">
                     <label for="email">E-mail</label>
-                    <input id="email" type="text" name="email" placeholder="Digite seu e-mail" required>
+                    <input id="email" type="email" name="email" placeholder="Digite seu e-mail">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
                 </div>
                 <div class="input-box">
                     <label for="number">Celular</label>
-                    <input id="number" type="text" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    <input id="number" type="number" name="number" placeholder="(xx) xxxx-xxxx">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
                 </div>
                 <div class="input-box">
                     <label for="password">Senha</label>
-                    <input id="password" type="text" name="password" placeholder="Digite sua senha" required>
+                    <input id="password" type="password" name="password" placeholder="Digite sua senha">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
                 </div>
                 <div class="input-box">
                      <label for="cpassword">Confirmar Senha</label>
-                    <input id="cpassword" type="text" name="cpassword" placeholder="Digite sua senha" required>
+                    <input id="cpassword" type="password" name="cpassword" placeholder="Digite sua senha">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
                 </div>
             </div>
             <div class="gender-inputs">
@@ -67,10 +86,12 @@
                 </div>
             </div>
             <div class="continue-button">
-                <button><a href="index.html"></a>Continuar</button>
+                <button type="submit"><a href="login.html">Continuar</a></button>
             </div>
         </form>
     </div>
+
+    <script src="./Js/script.js"></script>
 </body>
 </html>
             </div>
