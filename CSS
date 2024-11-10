@@ -127,6 +127,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
+    position: relative;
 }
 
 .input-box input {
@@ -153,6 +154,19 @@ body {
 }
 .input-box input::placeholder {
     color: #000000be;
+}
+
+.input-box i {
+    position: absolute;
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%);
+    color: #ccc;
+    visibility: hidden;
+}
+
+.input-box small {
+    visibility: hidden
 }
 
 .gender-group {
@@ -251,6 +265,9 @@ input[type="radio"] {
 
   .linput-box {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    position: relative;
   }
 
   .linput-box input {
@@ -300,6 +317,77 @@ input[type="radio"] {
     color: var(--color-green);
 }
 
+.cadastro-button button:hover {
+    background-color: #91f3bb;
+}
+
+.cadastro-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: var(--color-light);
+}
+
+/* JavaScript */
+.input-box.success input {
+    border-color: #2ecc71;
+  }
+  
+  .input-box.error input {
+    border-color: #e74c3c;
+  }
+  
+  .input-box.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .input-box.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .input-box.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+
+  .linput-box i {
+    position: absolute;
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%);
+    color: #ccc;
+    visibility: hidden;
+  }
+
+  .linput-box small {
+    visibility: hidden
+  }
+
+
+  .linput-box.success input {
+    border-color: #2ecc71;
+  }
+  
+  .linput-box.error input {
+    border-color: #e74c3c;
+  }
+  
+  .linput-box.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .linput-box.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .linput-box.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
 .cadastro-button button:hover {
     background-color: #91f3bb;
 }
